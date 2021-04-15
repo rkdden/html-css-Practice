@@ -1,0 +1,102 @@
+#container{
+    margin: 0 auto;
+    width: 70%;
+}
+#first-header {
+    width: 100%;
+    display: flex;
+    background-color: #474747;
+    color: white;
+    height: 32px;
+    font-size: 14px;
+}
+p {
+    margin: 4px 5px 0;
+}
+p #bookmark{
+    justify-self: flex-start;
+}
+#first-header div {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo-wrapper{
+    width: 100%;
+}
+#logo{
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+}
+#logo > img {
+    width: 170px;
+}
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    border: 1px solid black;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+}
+.menu p {
+    padding-top: 5px;
+}
+.big-image{
+    margin: 0 auto;
+}
+.big-image > p > img {
+    width: 100%;
+    padding-bottom: 100px;
+}
+#middle-title {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+#middle-title > h2 {
+    width: 200px;
+    margin: 0 auto;
+    border-top: 2px solid black;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+.content-images {
+    width: 100%;
+    display: flex;
+}
+.content-images > div > p > img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+}
+.textile-name {
+    font-weight: bold;
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+.color-wrapper {
+    display: flex;
+}
+.color{
+    width: 10px;
+    height: 5px;
+    margin: 5px 3px;
+    background-color: black;
+}
+
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 65px;
+    border-top: 1px solid black ;
+    margin-top: 100px;
+}
+footer p {
+    font-size: 13px;
+}

@@ -1,0 +1,246 @@
+@import "./reset.css";
+
+/* Custom CSS
+ * --------------------------------------- */
+body{
+    font-family: arial,helvetica;
+    color: #F2F2F2;
+    position: relative;
+}
+h1{
+    font-size: 6em;
+}
+p{
+    font-size: 2em;
+}
+.content{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+
+
+/* 로고 및 아이콘 */
+.top_fixed {
+    width: 1024px;
+    z-index: 10;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    margin-left: -512px;
+}
+.top_fixed div:nth-child(1){
+    width: 79%;
+    margin-top: 50px;
+}
+.top_fixed div:nth-child(1) img {
+    width: 200px;
+}
+.top_fixed div:nth-child(2){
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.bottom_fixed {
+    width: 1024px;
+    position: fixed;
+    z-index: 10;
+    left: 50%;
+    margin-left: -512px;
+}
+
+/* 스크롤 아이콘 */
+.bottom_fixed a:nth-child(1){
+    position: fixed;
+    bottom: 31px;
+    left: 50%;
+}
+/* 하단 배민 다운로드 아이콘 */
+.bottom_fixed a:nth-child(2){
+    position: fixed;
+    top: 150px;
+    left: 70%;
+    /* display: none; 하단 배민다운로드 앱 */
+}
+.bottom_fixed a:nth-child(2) img{
+    width: 200px;
+}
+.section {
+    text-align: center;
+}
+/* Section 1
+ * --------------------------------------- */
+#section0{
+    background: url("../image/main_01@2x.jpg") no-repeat center;
+    background-size: 100%;
+}
+/* 라이더채용 */
+#section0 .btn_rider{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+/* 메인텍스트 */
+#section0 .main_text{
+    width: 500px;
+    margin: 200px 0 0 -500px;
+}
+#section0 a .btn_down {
+    width: 260px;
+    position: absolute;
+    bottom: 0;
+    right: 22%;
+}
+
+
+/* Section 2
+ * --------------------------------------- */
+#section1{
+    background-color: #2ac1bc;
+}
+#section1 h1{
+    color: #fff;
+}
+#section1 .section_in div:nth-child(3) img {
+    position: absolute;
+    right: 0;
+    /* 나중에 왼쪽으로 보내기 */
+}
+
+
+/* Section 3
+ * --------------------------------------- */
+#section2{
+    background-color: #2ac1bc;
+}
+#section2 h1{
+    color: #F2F2F2;
+}
+#section2 .section_in div:nth-child(3) img:nth-child(1) {
+    position: absolute;
+    right: 200px;
+    top: -300px;
+    width: 30%;
+}
+#section2 .section_in div:nth-child(3) img:nth-child(2) {
+    position: absolute;
+    width: 25%;
+    top: 150px;
+    right: 50px;
+}
+/* Section 4
+ * --------------------------------------- */
+#section3{
+    background-color: #2ac1bc;
+}
+#section3 h1{
+    color: #F2F2F2;
+}
+#section3 .section_in div:nth-child(3) img {
+    position: absolute;
+    width: 40%;
+    top: 275px;
+    right: 0;
+}
+
+
+/* Section 5
+ * --------------------------------------- */
+#section4{
+    background-color: #2ac1bc;
+}
+#section4 h1{
+    color: #F2F2F2;
+}
+#section4 .section_in div:nth-child(3) img {
+    position: absolute;
+    width: 40%;
+    top: 110px;
+    right: 0;
+}
+
+
+
+/* Section 6
+ * --------------------------------------- */
+#section5{
+    background-color: white;
+    color: black;
+}
+#section5 .section_in footer {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 125px;
+}
+
+#section5 .section_in footer .footer_l div:nth-child(1){
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#section5 .section_in footer .footer_l div:nth-child(1) a {
+    width: 34%;
+}
+#section5 .section_in footer .footer_l div:nth-child(1) a img {
+    margin: 15px auto;
+    width: 60%;
+}
+#section5 .section_in footer .footer_l div:nth-child(2) {
+    margin: 30px 0;
+    font-size: 40px;
+}
+#section5 .section_in footer .footer_l div:nth-child(2) a {
+    margin: 30px 15px 50px 0;
+}
+#section5 .section_in footer .footer_l div:nth-child(3) p {
+    font-size: 15px;
+    padding-bottom: 2%;
+}
+#section5 .section_in footer .footer_l div:nth-child(3) p span {
+    display: inline-block;
+    margin-top: 10px;
+}
+#section5 .section_in footer .footer_l div:nth-child(3) p span a {
+    text-decoration: underline;
+}
+#section5 .section_in footer .footer_r {
+    position: relative;
+}
+#section5 .section_in footer .footer_r img {
+    position: absolute;
+    left: -430px;
+    width: 200px;
+}
+
+
+
+/* 섹션 공통 */
+.section_in {
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+}
+.section_in div .ctn_text {
+    margin-top: 150px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.section_in div:nth-child(2) p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+.section_in div:nth-child(2) h3 {
+    font-size: 14px;
+    opacity: 0.6;
+    margin-top: 10px;
+}
+.section_in div:nth-child(3) {
+    height: 100%;
+    position: relative;
+}
